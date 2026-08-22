@@ -10,6 +10,7 @@ pip install FastAPI
 pip install sqlalchamy
 pip install passlib
 pip install bcrypt==4.0.1
+pip install python-multipart
 ```
 3- Por fim, utilize o código no terminal:
 
