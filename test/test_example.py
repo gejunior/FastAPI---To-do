@@ -1,7 +1,5 @@
 import pytest
 
-
-
 def test_equal_or_not_equal():
     assert 3 == 3
     assert 3 != 1    
@@ -49,5 +47,5 @@ def default_employee():
 def teste_person(default_employee):
     assert default_employee.first_name == 'Junior', 'First name should be Junior'
     assert default_employee.last_name == 'Joe', 'Last name should be Joe'
-    assert default_employee.major == 'Computer Science1'
+    assert default_employee.major == 'Computer Science'
     assert default_employee.years == 2
